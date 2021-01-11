@@ -1,0 +1,17 @@
+[server]
+# Turn this to true or comment out
+enableCORS = false
+# port=80
+
+[browser]
+# Put the URL people will go to here:
+# serverAddress = 34.83.109.34
+
+[global]
+logLevel="error"
+
+[mapbox]
+
+# Configure Streamlit to use a custom Mapbox token for elements like st.pydeck_chart and st.map. To get a token for yourself, create an account at https://mapbox.com. It's free (for moderate usage levels)!
+# Default: ""
+token = "pk.eyJ1Ijoic2FlaWRkb3VzdGk4NiIsImEiOiJja2pzcWh4cmgwOTAzMndueThyZG91MnZ6In0.rXJWgYzyEU3CCD6hrVSg5w"
