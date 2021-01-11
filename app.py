@@ -22,9 +22,9 @@ def main():
         gui.data_entry_gui()
         data = Reg_Data(gui.uploaded_file)
         gui.table_df(data.df_data)
-        df = data.df_data[['X5 latitude', 'X6 longitude', 'Y house price of unit area']]
+        # df = data.df_data[['X5 latitude', 'X6 longitude', 'Y house price of unit area']]
         # gui.plot_map(data.df_data)
-        gui.plot_map(df)
+        gui.plot_3d_map(data.df_data)
         # st.success('This is a success message!')
 
 
