@@ -1,6 +1,9 @@
 # House Price Project
 
-In this application Real Estate Valuation Data Set is used for evaluation of various regression algorithms.
+[![GitHub issues](https://img.shields.io/github/issues/Saeid-Dousti/House-Valuation-Regression-Project)](http://github.com/Saeid-Dousti/House-Valuation-Regression-Project/issues)
+[![GitHub forks](https://img.shields.io/github/forks/Saeid-Dousti/House-Valuation-Regression-Project)](http://github.com/Saeid-Dousti/House-Valuation-Regression-Project/network)
+
+In this application Real Estate Valuation dataset is used for evaluation of various regression algorithms.
 
 This application is developed using streamlit app and can be easily installed and used by the user.
 
