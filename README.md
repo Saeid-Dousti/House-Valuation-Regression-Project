@@ -1,7 +1,11 @@
-# House Price Project
+# House Valuation Regression Project
 
 [![GitHub issues](https://img.shields.io/github/issues/Saeid-Dousti/House-Valuation-Regression-Project)](http://github.com/Saeid-Dousti/House-Valuation-Regression-Project/issues)
 [![GitHub forks](https://img.shields.io/github/forks/Saeid-Dousti/House-Valuation-Regression-Project)](http://github.com/Saeid-Dousti/House-Valuation-Regression-Project/network)
+
+<p align="left">
+  <img src="config\logo.jfif">
+</p>
 
 In this application Real Estate Valuation dataset is used for evaluation of various regression algorithms.
 

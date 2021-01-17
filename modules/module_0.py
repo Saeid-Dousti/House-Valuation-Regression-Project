@@ -5,6 +5,7 @@ import pandas as pd
 import pydeck as pdk
 import matplotlib.pyplot as plt
 import seaborn as sns
+from PIL import Image
 
 
 class GUI:
@@ -20,6 +21,14 @@ class GUI:
         self.filter_ZS = False
         self.filter_LOF = False
         self.filter_IF = False
+
+    def label_gui(self):
+        # sidebar title and logo
+        st.sidebar.title("House Valuation Regression Project")
+        try:
+            st.sidebar.image(Image.open(os.path.join('config', 'logo.jfif')).resize((240, 106)))
+        except:
+            pass
 
     def intro_gui(self):
         st.header('Section i: Introduction')

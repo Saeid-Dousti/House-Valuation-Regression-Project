@@ -12,10 +12,9 @@ from modules.module_2 import DataFiltering
 def main():
     # tb._SYMBOLIC_SCOPE.value = True
 
-    intro_butt = st.sidebar.checkbox('1) Introduction', key=None)
-
     gui = GUI()
-
+    gui.label_gui()
+    intro_butt = st.sidebar.checkbox('1) Introduction', key=None)
     if intro_butt:
         # gui.header_gui('Section i: Introduction')
         gui.intro_gui()
