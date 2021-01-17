@@ -17,6 +17,8 @@ class Reg_Data:
 
         self.outlier_data = None
 
+        self.corrected_data = None
+
     def read_excel(self, excel_data):
         self.raw_data = pd.read_excel(excel_data)
         self.raw_data.columns = ['_'.join(col.split()) for col in self.raw_data.columns]
