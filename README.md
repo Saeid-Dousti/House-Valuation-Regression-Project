@@ -12,6 +12,13 @@ This project is comprised of two main sections. In the first section data is exp
 The following outlier detection methods are provided to user for outlier detection.
 Z_score method, Isolation Forest, and Local Outlier Factor.
 
+To run locally, clone this repository:
+
+git clone https://github.com/Saeid-Dousti/Insight-AI-Project-LaibelNet.git
+cd Insight-AI-Project-LaibelNet
+pip install -r requirements.txt
+python setup.py install
+
 
 
 
