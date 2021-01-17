@@ -31,9 +31,10 @@ streamlit run app.py
 ```
 
 The data visualization includes a 3D plot powered by pydeck library using the geo location data.
-```
+
+<p align="left">
   <img src="config\3d_GIO.jpg">
-```
+</p>
 
 
 
