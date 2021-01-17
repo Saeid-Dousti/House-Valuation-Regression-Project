@@ -12,6 +12,24 @@ This project is comprised of two main sections. In the first section data is exp
 The following outlier detection methods are provided to user for outlier detection.
 Z_score method, Isolation Forest, and Local Outlier Factor.
 
+## Dependencies and Installation
+
+Inclusion of streamlit is required.
+
+- [Streamlit](streamlit.io)
+
+To run locally, clone this repository:
+```
+git clone https://github.com/Saeid-Dousti/House-Valuation-Regression-Project
+cd House-Valuation-Regression-Project
+pip install -r requirements.txt
+python setup.py install
+```
+To run the code
+```
+streamlit run app.py
+```
+
 
 
 
