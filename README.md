@@ -7,7 +7,7 @@
   <img src="config\logo.jfif">
 </p>
 
-In this application Real Estate Valuation dataset is used for evaluation of various regression algorithms.
+In this application Real Estate Valuation dataset (https://archive.ics.uci.edu/ml/datasets/Real+estate+valuation+data+set) is used for evaluation of various regression algorithms.
 
 This application is developed using streamlit app and can be easily installed and used by the user.
 
